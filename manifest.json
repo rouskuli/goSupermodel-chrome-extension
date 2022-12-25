@@ -1,0 +1,22 @@
+{
+  "name": "Gosupermodel extension",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Extend gosupermodel.com with various nice things.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": [
+        "https://gosupermodel.com/games/sketzmo/*"
+      ],
+      "js": [
+        "js/sketzmo_typer.js"
+      ]
+    }
+  ]
+}
