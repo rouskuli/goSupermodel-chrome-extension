@@ -1,0 +1,23 @@
+#modeldialog_plus {
+    background: #656663;
+    position: relative;
+    border-radius: 10px;
+    margin: 0px 12px;
+    padding: 10px;
+    height: 39px;
+    top: -55px;
+    box-shadow: pink 0px 0px 13px, inset 3px 3px 5px rgb(89 90 88), inset -4px -4px 5px rgb(89 90 88);
+}
+
+#modeldialog_plus a.nappula {
+    margin-left: 8px;
+}
+
+#modeldialog_plus label, #modeldialog_plus input {
+    position: relative;
+    top: -7px;
+}
+
+#modeldialog_plus input {
+    max-width: 3rem;
+}
