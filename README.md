@@ -6,8 +6,9 @@ This extension slightly improves some aspects of the [gosupermodel.com](gosuperm
 
 * Keyboard support for Sketzmo 
   * You can type with your keyboard instead of having to click on the letters with your mouse.
-* Batch send super greetings
-  * A new area above the the model dialog (the grey pop-up you get when you hover over someone's name) has been added. You can type in a positive whole number and they will be sent out at once, so there is no need to navigate the greetings menu to send them one by one. It will also tell you how many it sent successfully and how many failed because you didn't have enough greetings left. You can't use this extension to send more super greetings than you really have.
+  * Works now with shared Sketzmos, too.
+* ~~Batch send super greetings~~
+  * Deleted, you can now trade them easily and more securely using the actual trade function.
 
 ## Installation 
 

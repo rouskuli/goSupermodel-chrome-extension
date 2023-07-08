@@ -2,7 +2,7 @@
   "name": "Gosupermodel extension",
   "action": {},
   "manifest_version": 3,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Extend gosupermodel.com with various nice things.",
   "permissions": [
     "activeTab",
@@ -12,32 +12,12 @@
     {
       "run_at": "document_idle",
       "matches": [
-        "https://gosupermodel.com/games/sketzmo/*"
+        "https://gosupermodel.com/games/sketzmo/*",
+        "https://gosupermodel.com/skinv/*"
       ],
       "js": [
         "js/sketzmo_typer.js"
       ]
-    },
-    {
-      "run_at": "document_idle",
-      "matches": [
-        "https://gosupermodel.com/*"
-      ],
-      "js": [
-        "js/inject_modeldialog.js"
-      ]
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "js/greet_button.js",
-        "css/modeldialog.css"
-      ],
-      "matches": [
-        "https://gosupermodel.com/*"
-      ],
-      "use_dynamic_url": true
     }
   ]
 }
